@@ -2,6 +2,7 @@
 export type UserType = {
     name: string
     age: number
+    title?: string
 }
 
 const user: UserType = {
